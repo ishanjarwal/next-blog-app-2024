@@ -1,0 +1,130 @@
+.container {
+    position: relative;
+    padding: 0px 30px;
+    min-height: calc(100vh - 100px);
+}
+
+.title {
+    margin-top: 60px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-size: 36px;
+    width: 100%;
+    resize: none;
+}
+
+.categoryInput {
+    padding: 1rem;
+    margin-top: 30px;
+    border: 1px solid var(--text);
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bottom {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    padding: 16px 30px;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottom button {
+    padding: 16px 24px;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.imgInput {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imgInput .imgContainer {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.imgInput .imgContainer img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgInput label {
+    border-radius: 12px;
+    border: 2px dashed var(--text);
+    background-color: var(--softBg);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imgInput label:hover {
+    filter: brightness(98%);
+}
+
+.imgInput label:active {
+    filter: brightness(95%);
+}
+
+.imgInput label p {
+    color: var(--text);
+    margin-bottom: 30px;
+}
+
+.imgInput label svg {
+    margin-top: 30px;
+}
+
+.imgInput input {
+    display: none;
+}
+
+.container .ql-toolbar {
+    color: var(--text) !important;
+}
+
+.container .ql-container {
+    min-height: 250px;
+}
+
+.tags {
+    margin-top: 30px;
+    background-color: var(--softBg);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.tags label {
+    color: var(--text);
+    font-size: 12px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.tags textarea {
+    background-color: transparent;
+    color: var(--text);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid var(--text);
+    resize: none;
+    width: 100%;
+    padding: .5rem;
+}

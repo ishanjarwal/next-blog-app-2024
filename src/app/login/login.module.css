@@ -1,0 +1,52 @@
+.container {
+    padding: 5rem;
+}
+
+.wrapper {
+    background-color: var(--softBg);
+    border-radius: 5px;
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 12px 16px;
+    font-size: 18px;
+    border: none;
+    min-width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0px 4px 16px 0px #00000050;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}
+
+.btn span:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.preloader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--softBg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    font-size: 24px;
+}

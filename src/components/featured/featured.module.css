@@ -1,0 +1,94 @@
+.container {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: normal;
+}
+
+.post {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.imageContainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+}
+
+.image {
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.postTitle {
+    font-size: 40px;
+}
+
+.postDesc {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--textSoft);
+}
+
+.postButton {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0px 4px 25px 0px #0000005c;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 48px;
+    }
+
+    .post {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .postTitle {
+        font-size: 28px;
+    }
+
+    .postDesc {
+        font-size: 14px;
+    }
+
+    .imageContainer {
+        height: 300px;
+        width: 100%;
+        flex: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
+}

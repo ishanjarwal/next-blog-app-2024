@@ -1,0 +1,95 @@
+.container {
+    flex: 1;
+}
+
+.blogList h2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--softText);
+}
+
+.blogList h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.blogList .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.blogList .content .listitem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.blogList .content .listitem .imgContainer {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.blogList .content .listitem .listDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.blogList .content .listitem .listDetails>a.category {
+    padding: 2px 6px;
+    border-radius: 20px;
+    color: white;
+    background-color: crimson;
+    width: max-content;
+    font-size: 10px;
+}
+
+.blogList .content .listitem .listDetails h1 {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 600;
+}
+
+.blogList .content .listitem .listDetails p span {
+    color: var(--softText);
+    font-size: 12px;
+}
+
+
+.categories {
+    margin-top: 60px;
+}
+
+.categories h2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--softText);
+}
+
+.categories h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.categories .content {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.categories .content .listitem {
+    padding: 16px 32px;
+    width: 30%;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}

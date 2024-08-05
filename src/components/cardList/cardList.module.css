@@ -1,0 +1,15 @@
+.title {
+    text-transform: capitalize;
+}
+
+.container {
+    flex: 2;
+    width: 100%;
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}

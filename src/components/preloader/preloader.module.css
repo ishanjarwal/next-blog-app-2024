@@ -1,0 +1,24 @@
+.container {
+    position: fixed;
+    background-color: var(--bg);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.imgContainer img {
+    object-fit: cover;
+    object-position: center;
+}
